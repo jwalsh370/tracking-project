@@ -1,5 +1,17 @@
 $(function(){
 
+  $(document).ready(function() {
+
+      function codeLeft() {
+          $("#one").animate({left: "-=300"}, 1500, "swing", codeRight);
+      }
+      function codeRight() {
+          $("#one").animate({left: "+=300"}, 1500, "swing", codeLeft);
+      }
+
+      codeRight();
+  });
+
   $(".ownInfo").submit(function() {
     event.preventDefault();
 

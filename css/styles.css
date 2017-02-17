@@ -19,7 +19,7 @@ input[type="radio"] {
 }
 
 #colors{
-  color: #002066;
+  color:  #6699ff;
   text-align: center;
 }
 
@@ -42,21 +42,19 @@ background-color: #6699ff;
 }
 
 .jumbotron{
-  background-color: #99b9ff;
+  background-color: black;
   color: black;
 }
 
 #main{
   padding: 2%;
-  margin: 3%;
-  border-width: thick 20%;
+  margin: 1%;
+  border-width: thick 10%;
+  padding-bottom: 490px;
+
 }
 
-img{
-  background-image: repeat;
+p{
+  font-family: monospace;
+  font-size: 20px;
 }
-/*.body2{
-  background: url(https://media1.giphy.com/media/gU25raLP4pUu4/200.webp#1);
-  background-position: bottom;
-  background-repeat: no-repeat;
-}*/
