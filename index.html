@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -20,50 +20,62 @@
           <label for="lastName">Last Name:</label>
           <input id="lastName" class="form-control" type="text">
         </div>
-        <h3>Do you like to be out front or behind the scenes?</h3>
-        <select class="form-control" id="front">
-          <option>Out Front</option>
-          <option>Behind the Scenes</option>
-          <option>Both</option>
-          <option>I prefer hiding actually.</option>
-        </select>
-        <h3>How do you approach problem solving?<h3>
-        <select class="form-control" id="solve">
-          <option>Head on, with no hesitation.</option>
-          <option>With careful consideration and contemplation.</option>
-          <option>I try to avoid problems.</option>
-        </select>
-        <h3>Do you prefer webpages with heavy user interaction, or limited user interactions.</h3>
-        <select class="form-control" id="heavy">
-          <option>Heavy</option>
-          <option>Limited</option>
-          <option>I just love the interent!</option>
-          <option>I think technology will devour my soul!</option>
-        </select>
-        <h3>Do you enjoy practicing for hours every day?</h3>
-        <select class="form-control" id="practice">
-          <option>Yes! I can't get enough.</option>
-          <option>No, maybe a few hours at most.</option>
-          <option>Practice! We talking about Practice! Nah.</option>
-        <h3>Anyone can be taught, are you ready to learn?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="learn" value="ready">
-            I'm Ready!
-          </label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="learn" value="no">
-            Maybe next time!
-          </label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="learn" value="all">
-            I know it all!
-          </label>
-        <button type="submit" class="btn">Submit</button>
-      </form>
+        <h3>1. Do you like to be out front or behind the scenes?</h3>
+          <select class="form-control" id="front">
+            <option></option>
+            <option>Out Front</option>
+            <option>Behind the Scenes</option>
+            <option>Both</option>
+            <option>I prefer hiding actually.</option>
+          </select>
+        <h3>2. How do you approach problem solving?<h3>
+          <select class="form-control" id="solve">
+            <option></option>
+            <option>Head on, with no hesitation.</option>
+            <option>With careful consideration and contemplation.</option>
+            <option>I try to avoid problems.</option>
+          </select>
+        <h3>3. Do you prefer webpages with heavy user interaction, or limited user interactions.</h3>
+          <select class="form-control" id="heavy">
+            <option></option>
+            <option>Heavy</option>
+            <option>Limited</option>
+            <option>I just love the interent!</option>
+            <option>I think technology will devour my soul!</option>
+          </select>
+        <h3>4. Do you enjoy practicing for hours every day?</h3>
+          <select class="form-control" id="practice">
+            <option></option>
+            <option>Yes! I can't get enough.</option>
+            <option>No, maybe a few hours at most.</option>
+            <option>Practice! We talking about Practice! Nah.</option>
+          </select>
+        <h3>5. Anyone can be taught, are you ready to learn?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="learn" value="ready">
+              I'm Ready!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="learn" value="no">
+              Maybe next time!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="learn" value="all">
+              I know it all!
+            </label>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <div class="panel">
+          <p>
+            Congratulations<span class="firstName"></span><span class="lastName"></span> you are destined for<span id="course"></span>
+          </p>
+      </div>
     </div>
-
   </body>
 </html>
