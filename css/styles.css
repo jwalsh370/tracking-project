@@ -1,14 +1,14 @@
 body{
   border: solid 10px black;
  padding-bottom: 440px;
- /*background-color: lightblue;*/
+ background-color: #7489ff;
 }
-
 
 #head2{
 font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-
+text-align: center;
 }
+
 input[type="radio"] {
   margin-top: 10px;
 }
@@ -16,4 +16,31 @@ input[type="radio"] {
 .panel{
   display: none;
  background-color: #6699ff;
+}
+
+#colors{
+  color: #6699ff;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Space Mono', monospace;
+  text-decoration: underline;
+}
+
+.ownInfo{
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+}
+
+.form-group{
+  width: 30%;
+}
+
+.well{
+background-color: #6699ff;
+}
+
+.jumbotron{
+  background-color: #99b9ff;
 }

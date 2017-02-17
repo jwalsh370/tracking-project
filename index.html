@@ -3,17 +3,18 @@
   <head>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Tracking</title>
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron" id="colors">
         <h1>Find your Coding Match!</h1>
       </div>
       <div class="well" class="bg-danger">
-      <h2 id="head2">Do you have what it takes to Code! Are you interested in gaining new skills and trying something new? Take this coding match and find which coding track is best suited to you and your needs.</h2>
+      <h3 id="head2">Do you have what it takes to Code! Are you interested in gaining new skills and trying something new? Take this coding match and find which coding track is best suited to you and your needs.</h3>
     </div>
       <form class="ownInfo">
         <div class="form-group">
@@ -30,7 +31,7 @@
             <option>Out Front</option>
             <option>Behind the Scenes</option>
             <option>Both</option>
-            <option>I prefer hiding actually.</option>
+            <option><strong>I prefer hiding actually.<strong></option>
           </select>
         <h3>2. How do you approach problem solving?<h3>
           <select class="form-control" id="solve">
@@ -45,16 +46,16 @@
             <option>Heavy</option>
             <option>Limited</option>
             <option>I just love the interent!</option>
-            <option>I think technology will devour my soul!</option>
+            <option><strong>I think technology will devour my soul!<strong></option>
           </select>
         <h3>4. Do you enjoy practicing for hours every day?</h3>
           <select class="form-control" id="practice">
             <option></option>
             <option>Yes! I can't get enough.</option>
             <option>No, maybe a few hours at most.</option>
-            <option>Practice! We talking about Practice! Nah.</option>
+            <option><strong>Practice! We talking about Practice! <em>Nah<em>.<strong></option>
           </select>
-        <h3>5. Anyone can be taught, are you ready to learn?</h3>
+        <h3 id="head5"><mark>5. Anyone can be taught, are you ready to learn?</mark></h3>
           <div class="radio">
             <label>
               <input type="radio" name="learn" value="ready">
@@ -70,7 +71,7 @@
           <div class="radio">
             <label>
               <input type="radio" name="learn" value="all">
-              I'm not that interested.
+              <strong>I'm not that interested<strong>.
             </label>
           </div>
           <button type="submit" class="btn btn-success btn-lg">Submit</button>
