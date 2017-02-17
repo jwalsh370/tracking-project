@@ -1,7 +1,9 @@
 body{
   border: solid 10px black;
-  padding-bottom: 480px;
+ padding-bottom: 440px;
+ /*background-color: lightblue;*/
 }
+
 
 #head2{
 font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -13,4 +15,5 @@ input[type="radio"] {
 
 .panel{
   display: none;
+ background-color: #6699ff;
 }

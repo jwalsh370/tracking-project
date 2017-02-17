@@ -8,7 +8,7 @@ $(function(){
 
     $(".firstName").text(name1);
     $(".lastName").text(name2);
-
+debugger;
     var learn = $("input:radio[name=learn]:checked").val();
 
         if (learn === "ready"){
@@ -18,8 +18,9 @@ $(function(){
         } else {
           course = "something else."
         }
-    $("#course").empty().append(course);
 
+    $("#course").empty().append(course);
+    $(".panel").show();
   });
 
 });
