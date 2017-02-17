@@ -19,7 +19,7 @@ input[type="radio"] {
 }
 
 #colors{
-  color: #6699ff;
+  color: #002066;
   text-align: center;
 }
 
@@ -43,4 +43,20 @@ background-color: #6699ff;
 
 .jumbotron{
   background-color: #99b9ff;
+  color: black;
 }
+
+#main{
+  padding: 2%;
+  margin: 3%;
+  border-width: thick 20%;
+}
+
+img{
+  background-image: repeat;
+}
+/*.body2{
+  background: url(https://media1.giphy.com/media/gU25raLP4pUu4/200.webp#1);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}*/
