@@ -1,6 +1,6 @@
 $(function(){
 
-  $(document).ready(function() {
+  $(function() {
 
       function codeLeft() {
           $("#one").animate({left: "-=300"}, 1500, "swing", codeRight);
@@ -24,9 +24,9 @@ $(function(){
     var learn = $("input:radio[name=learn]:checked").val();
 
         if (learn === "ready"){
-          course = 'Ruby, Php, and Java.'
+          course = 'C#, Php, and Java.'
         } else if ( learn === "no") {
-          course = "Css, Design, and Java."
+          course = "Css, Design, and Ruby."
         } else {
           course = "something else."
         }
