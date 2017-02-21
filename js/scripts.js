@@ -23,7 +23,7 @@ $(function(){
 
     var learn = $("input:radio[name=learn]:checked").val();
 
-        if (learn === "ready"){
+        if (learn === "ready" + ){
           course = 'C#, Php, and Java.'
         } else if ( learn === "no") {
           course = "Css, Design, and Ruby."
