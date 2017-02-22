@@ -16,7 +16,7 @@
       <div class="well" class="bg-danger">
         <h3 id="head2">Do you have what it takes to Code! Are you interested in gaining new skills and trying something new? Take this coding match and find which coding track is best suited to you and your needs.</h3>
       </div>
-    <form class="ownInfo">
+    <form id="code">
       <div class="form-group">
         <label for="firstName">First Name:</label>
         <input id="firstName" class="form-control" type="text">
@@ -26,51 +26,47 @@
         <input id="lastName" class="form-control" type="text">
       </div>
       <h3>1. Do you like to be out front or behind the scenes?</h3>
-        <select class="form-control" id="front">
-          <option></option>
-          <option><span class="one">Out Front</span></option>
-          <option><span class="two">Behind the Scenes</span></option>
-          <option><span class="three">Both</span></option>
-          <option><span class="four"><strong>I prefer hiding actually.</span><strong></option>
-        </select>
+        <div class= "form-group">
+          <input type="checkbox" name="where" value="one"> Out Front.<br>
+         <input type="checkbox" name="where" value="two"> Behind the Scenes.<br>
+         <input type="checkbox" name="where" value="three"> Both.<br>
+         <input type="checkbox" name="where" value="four"> <strong>I prefer hiding actually</strong>.<br>
+       </div>
       <h3>2. How do you approach problem solving?<h3>
-        <select class="form-control" id="solve">
-          <option></option>
-          <option>Head on, with no hesitation.</option>
-          <option>With careful consideration and contemplation.</option>
-          <option><span class="four">I try to avoid problems.</span></option>
-          </select>
+      <div class= "form-group">
+        <input type="checkbox" name="how" value="one"> Head on with no hesitation.<br>
+        <input type="checkbox" name="how" value="two"> With Careful consideration.<br>
+        <input type="checkbox" name="how" value="four"> I try to avoid problems.<br>
+      </div>
       <h3>3. Do you prefer webpages with heavy user interaction, or limited user interactions.</h3>
-        <select class="form-control" id="heavy">
-          <option></option>
-          <option><span class="one"Heavy</span></option>
-          <option><span class="two">Limited</span></option>
-          <option>I just love the interent!</option>
-          <option><strong><span class="four">I think technology will devour my soul!</span><strong></option>
-        </select>
+      <div class= "form-group">
+        <input type="checkbox" name="prefer" value="one"> Heavy<br>
+        <input type="checkbox" name="prefer" value="two"> Limited<br>
+        <input type="checkbox" name="prefer" value="three"> I just love the interent! <br>
+        <input type="checkbox" name="prefer" value="four"> I think technology will devour my soul!<br>
+      </div>
       <h3>4. Do you enjoy practicing for hours every day?</h3>
-        <select class="form-control" id="practice">
-          <option></option>
-          <option><span class="three">Yes! I can't get enough.</span></option>
-          <option>No, maybe a few hours at most.</option>
-          <option><strong><span class="four">Practice! We talking about Practice! <em>Nah<em>.</span><strong></option>
-          </select>
+      <div class= "form-group">
+        <input type="checkbox" name="practice" value="three"> Yes! I can't get enough.<br>
+        <input type="checkbox" name="practice" value="four"> No, maybe a few hours at most.<br>
+        <input type="checkbox" name="practice" value="four"> Practice! We talking about Practice!<br>
+      </div>
       <h3 id="head5"><mark>5. Anyone can be taught, are you ready to learn?</mark></h3>
         <div class="radio">
           <label>
-            <input type="radio" name="learn" value="ready">
+            <input type="radio" name="learn" value="two">
               I'm Ready, teach me the back-end!
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="learn" value="no">
+            <input type="radio" name="learn" value="one">
               I'm ready,teach me the front end!
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="learn" value="all">
+            <input type="radio" name="learn" value="four">
               <strong>I'm not that interested<strong>.
           </label>
         </div>
