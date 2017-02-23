@@ -79,22 +79,20 @@ $(function(){
      back = five+six+seven+eight;
      both = nine+ten+eleven;
      none = twelve+thirteen+fourteen+fifteen+sixteen;
-     console.log(front);
-     console.log(back);
-     console.log(both);
-     console.log(none);
         if (answer = front){
           course = "Css, Design, and Ruby!"
         } else if ( answer = back) {
           course = "C#, Php, and Java!"
         } else if (answer = both){
           course = "greatness in all you do!"
-        } else if (anwser = none || learn === sixteen) {
+        } else if (anwser = none) {
           course   = "something different!"
+        } else if (learn = sixteen) {
+          course = "something different!"
         }
-        var recommendations = ["front","back","both","none"];
-        recommendations = recommendations.sort();
-        for (i=0;i<=3;i++)
+        // var recommendations = ["front","back","both","none"];
+        // recommendations = recommendations.sort();
+        // for (i=0;i<=3;i++)
 
     $("#course").empty().append(course);
     $(".panel").show();
